@@ -27,8 +27,8 @@ var findRepeatedDnaSequences = function (s) {
     }
     i++;
   }
-  console.log(result);
+  // console.log(result);
   return result;
 };
 
-findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTTAAAAGGGTTT");
+// findRepeatedDnaSequences("AAAAACCCCCAAAAACCCCCCAAAAAGGGTTTAAAAGGGTTT");
