@@ -36,7 +36,10 @@ var firstMissingPositive = function (nums) {
     }
   }
   for (let i = 1; i < nums.length + 1; i++) {
-    if (hashmap[i] === false) res = i;
+    if (hashmap[i] === false) {
+      res = i;
+      return res;
+    }
   }
   return res;
 };
